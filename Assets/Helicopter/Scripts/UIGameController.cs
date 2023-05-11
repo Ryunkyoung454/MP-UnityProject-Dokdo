@@ -1,9 +1,12 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+using System.Diagnostics;
 
+[DebuggerDisplay("{" + nameof(GetDebuggerDisplay) + "(),nq}")]
 public class UIGameController : MonoBehaviour
 {
+    private const string Name = "1";
     public Text EngineForceView;
     public GameObject RestartButton;
     public GameObject InfoButton;
@@ -44,8 +47,14 @@ public class UIGameController : MonoBehaviour
         ShowInfoPanel(false);
     }
 
+    [System.Obsolete]
     public void RestartGame()
     {
-        Application.LoadLevel("Main");
+        Application.LoadLevel(1);
+    }
+
+    private string GetDebuggerDisplay()
+    {
+        return ToString();
     }
 }

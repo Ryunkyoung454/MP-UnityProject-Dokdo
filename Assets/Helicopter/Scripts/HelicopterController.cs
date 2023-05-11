@@ -27,8 +27,14 @@ public class HelicopterController : MonoBehaviour
             MainRotorController.RotarSpeed = value * 80;
             SubRotorController.RotarSpeed = value * 40;
             HelicopterSound.pitch = Mathf.Clamp(value / 40, 0, 1.2f);
-            if (UIGameController.runtime.EngineForceView != null)
-                UIGameController.runtime.EngineForceView.text = string.Format("Engine value [ {0} ] ", (int)value);
+            switch (UIGameController.runtime.EngineForceView)
+            {
+                case null:
+                    break;
+                default:
+                    UIGameController.runtime.EngineForceView.text = string.Format("Engine value [ {0} ] ", (int)value);
+                    break;
+            }
 
             _engineForce = value;
         }

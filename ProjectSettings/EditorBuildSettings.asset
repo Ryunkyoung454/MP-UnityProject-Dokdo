@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Boat.unity
+    guid: 49fad61cdeeca4a9a891c6befb48a096
+  - enabled: 1
+    path: Assets/Scenes/Sample Scene.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Museum.unity
+    guid: bf960d4a2f34146bdb1a2394441a34f9
   m_configObjects: {}
