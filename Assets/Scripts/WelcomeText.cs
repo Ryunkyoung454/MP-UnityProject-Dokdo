@@ -5,14 +5,14 @@ using UnityEngine;
 public class WelcomeText : MonoBehaviour
 {
     public GameObject TextOnce;
-    private float timeToAppear = 2f;
+    private float timeToAppear = 3f;
     private float timeWhenDisappear;
 
     // Start is called before the first frame update
     void Start()
     {
-    
-            TextOnce.gameObject.SetActive(true);
+
+        TextOnce.gameObject.SetActive(true);
             timeWhenDisappear = Time.time + timeToAppear;
         
     }

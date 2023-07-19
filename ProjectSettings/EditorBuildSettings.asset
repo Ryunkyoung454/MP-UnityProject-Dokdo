@@ -6,12 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Boat.unity
-    guid: 49fad61cdeeca4a9a891c6befb48a096
+    path: Assets/Scenes/Harbour.unity
+    guid: d4b4d83fa01b2468299e2bfda06d6c58
   - enabled: 1
     path: Assets/Scenes/DOK.unity
     guid: dfba232dc54de4222b348dbe5fba16ef
   - enabled: 1
     path: Assets/Scenes/Dokdo Museum.unity
     guid: f8f02c0e87b1d4c728cb020e8c7dec08
+  - enabled: 1
+    path: Assets/Scenes/DOK 1.unity
+    guid: 3c5c036aecc4e463d84b534a54e6ea96
   m_configObjects: {}
