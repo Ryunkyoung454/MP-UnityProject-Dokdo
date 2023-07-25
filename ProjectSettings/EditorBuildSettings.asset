@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/DOK 1.unity
     guid: 3c5c036aecc4e463d84b534a54e6ea96
+  - enabled: 1
+    path: Assets/Scenes/DOK 2.unity
+    guid: adb6a1319f0a7445cbfe4a6f0d4b7be8
   m_configObjects: {}
